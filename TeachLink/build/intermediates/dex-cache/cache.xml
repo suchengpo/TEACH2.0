@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_c3984f44860275c869cb2ad0eedc40d32122d3c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_4f2eb58e6b139e86c13cbb8f401f0ef8e8b9a734\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_f810f0563898fd55eed13d8b7dbab326809d7747\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_c570cce4024a8151d1d80f8a6f3adffb5f8e7e0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_8a3b55c47a4219e94f73d02f88f4f108c46350c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_6b74d13fe7ae6ef1be7a89c33364d5750a00f056\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_2e82f63d98c2b28667f625d5fe5bee8ea087be81\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+<<<<<<< HEAD
+        sha1="4e763c0a9a7fc471302b8783878c09f6b7e955fb">
+        <dex dex="C:\Users\303\Documents\GitHub\TeachLink\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_249158c1e74283299c3820ce87933fec43ff1132\classes.dex" />
+=======
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_d99f9fed0d4fc82bf2cd5b0d06f466e168372e23\classes.dex" />
+>>>>>>> origin/master
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_fc3c00bce063c713924f3db7fae17662d729e71e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_07b953dbba6809d357fdef898ba0d979a9db0644\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_3445fca5358cb263022f047e1c0ad2d9b53ce763\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7f2420506110902f033406b25697cf97ee8c38b2">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-25.1.0_85f85a0f82639f10811af794dbdaa77ddd098e1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_626a4d14d684d2d610edd0f1d0fb4195b3cff38f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.3.0_f5ecd50956226237d20dff5055f0ca0eae7d5167\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+<<<<<<< HEAD
+        sha1="6367ec52da0bb128a40edffc8dddbdc00b3cf757">
+        <dex dex="C:\Users\303\Documents\GitHub\TeachLink\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8768bb682bab11c99314503c20d0552ccadf84d9\classes.dex" />
+=======
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_52dde8637b8f18bf1090269df1091a424387bf5a\classes.dex" />
+>>>>>>> origin/master
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a72eb92c4a69666a99407b898e94f9666369f5fb">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_3b2b1bdb1901f724b2a4b35e12f53ebd6ea53a14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e6cf9650b3fa9f698940815704bfd9ab73c9168">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_008c9184ac4d7a0187fc71216ae223ce093def4a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_8a8e412f6ac778369304ada48a39f910864d0df4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\Nami\AndroidStudioProjects\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_fb21a59f0bfbb39907735e5390098a3e343c7f51\classes.dex" />
+    </item>
+
+</items>

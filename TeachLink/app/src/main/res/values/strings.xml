@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">TeachLink</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Student">Student</string>
+    <string name="Teacher">Teacher</string>
+    <string name="Welcome">Welcome</string>
+    <string name="Class">Class</string>
+    <string name="Time">Time</string>
+    <string name="Send">Send</string>
+    <string name="Scan">Scan</string>
+    <string name="Tag">Tag</string>
+    <string name="Question">Question</string>
+    <string name="Answer">Answer</string>
+    <string name="AnswerA">Answer A</string>
+    <string name="AnswerB">Answer B</string>
+    <string name="AnswerC">Answer C</string>
+    <string name="AnswerD">Answer D</string>
+    <string name="AnswerCorrect">Correct Answer ex:a</string>
+    <string name="text_GenerateQrCode">Generate QR Code</string>
+    <string name="Which_Class">Which Class?</string>
+    <string name="Choose_Answer">Choose Your Answer</string>
+    <string name="Answered">You Already Answer This Question</string>
+
+    <string name="ErrorMessage1">Error Username or Error Password</string>
+    <string name="ErrorMessage2">Error Class Name</string>
+    <string name="ErrorMessage3">Error Time</string>
+</resources>

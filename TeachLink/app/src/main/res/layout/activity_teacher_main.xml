@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/ta_back"
+    tools:context="com.example.a303.teachlink.TeacherMain">
+
+
+
+    <TextView
+        android:id="@+id/TV_Teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Teacher"
+        android:textSize="22dp"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="700sp"
+        android:orientation="vertical"
+        android:layout_below="@+id/TV_Teacher"
+        android:id="@+id/tahome_laout_left"
+        >
+
+        <ImageButton
+            android:id="@+id/IB_T_Rollcall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/roll_table"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+
+
+            />
+
+        <ImageButton
+            android:id="@+id/IB_T_Push"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/notification"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            />
+
+        <ImageButton
+            android:id="@+id/IB_T_Analyze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/teacher_analysis"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="700sp"
+        android:orientation="vertical"
+
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/TV_Teacher"
+        android:layout_alignParentRight="true">
+
+        <ImageButton
+            android:id="@+id/IB_T_Question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/question2"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+
+            />
+
+
+
+        <ImageButton
+            android:id="@+id/IB_T_Discuss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/discussion2"
+            android:scaleType="centerInside"
+            android:background="#00000000"
+            />
+
+
+
+        <ImageButton
+            android:id="@+id/IB_T_History"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/IB_T_Discuss"
+            android:src="@drawable/history"
+            android:layout_toRightOf="@+id/IB_T_Analyze"
+            android:scaleType="centerInside"
+            android:background="#00000000"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

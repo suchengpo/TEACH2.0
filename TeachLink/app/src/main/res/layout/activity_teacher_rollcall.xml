@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a303.teachlink.TeacherRollcall"
+    android:background="@drawable/ta_back">
+<TextView
+    android:id="@+id/TV_Title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:text="Teacher Rollcall"
+    android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/TV_Class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Class"
+        android:layout_below="@+id/TV_Title"/>
+    <EditText
+        android:id="@+id/ET_Class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TV_Class"/>
+    <TextView
+        android:id="@+id/TV_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Time"
+        android:layout_below="@+id/ET_Class"/>
+
+    <EditText
+        android:id="@+id/ET_Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TV_Time"
+        android:hint="ex:01/01"/>
+
+    <Button
+        android:id="@+id/BT_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Send"
+        android:layout_below="@+id/ET_Time"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

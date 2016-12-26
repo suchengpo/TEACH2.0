@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a303.teachlink.StudentRollcall"
+    android:background="@drawable/st_back">
+
+    <EditText
+        android:id="@+id/ET_QRClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Which_Class" />
+
+    <Button
+        android:id="@+id/BT_GenerateQrCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onGenerateQrCodeClick"
+        android:layout_below="@+id/ET_QRClass"
+        android:text="@string/text_GenerateQrCode" />
+
+    <ImageView
+        android:id="@+id/ivQRCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login_img"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/BT_GenerateQrCode"/>
+</RelativeLayout>
