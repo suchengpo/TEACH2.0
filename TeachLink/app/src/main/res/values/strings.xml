@@ -20,6 +20,7 @@
     <string name="AnswerCorrect">Correct Answer ex:a</string>
     <string name="text_GenerateQrCode">Generate QR Code</string>
     <string name="Which_Class">Which Class?</string>
+    <string name="Over">Rollcall Over</string>
     <string name="Choose_Answer">Choose Your Answer</string>
     <string name="Answered">You Already Answer This Question</string>
 

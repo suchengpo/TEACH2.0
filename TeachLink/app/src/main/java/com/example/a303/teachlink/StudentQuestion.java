@@ -10,7 +10,6 @@ import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import java.net.MalformedURLException;
@@ -31,21 +30,7 @@ public class StudentQuestion extends AppCompatActivity {
         setContentView(R.layout.activity_student_question);
 
         findViews();
-        DisplayMetrics dm = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(dm);
-        int intScreenWidth = dm.widthPixels;
-        int intScreenHeight = dm.heightPixels;
 
-        int numberevenWidth= ((intScreenWidth)/3);
-        int numberevenHeight=(intScreenHeight/3);
-        myimageviewsize(BT_AnswerA,numberevenWidth,numberevenHeight);
-        myimageviewsize(BT_AnswerB,numberevenWidth,numberevenHeight);
-        myimageviewsize(BT_AnswerC,numberevenWidth,numberevenHeight);
-        myimageviewsize(BT_AnswerD,numberevenWidth,numberevenHeight);
-        BT_AnswerA.setTextSize((intScreenHeight)/12);
-        BT_AnswerB.setTextSize((intScreenHeight)/12);
-        BT_AnswerC.setTextSize((intScreenHeight)/12);
-        BT_AnswerD.setTextSize((intScreenHeight)/12);
 
         Bundle bundle=getIntent().getExtras();
         user=(User) bundle.getSerializable("user");
@@ -68,9 +53,25 @@ public class StudentQuestion extends AppCompatActivity {
                     Toast.makeText(StudentQuestion.this,content,Toast.LENGTH_LONG).show();
                     //Toast.makeText(Loging.this, content, Toast.LENGTH_SHORT).show();
                     //#code............................................................
+
                 }
         };
             //*****juiz*******get
+            DisplayMetrics dm = new DisplayMetrics();
+            getWindowManager().getDefaultDisplay().getMetrics(dm);
+            int intScreenWidth = dm.widthPixels;
+            int intScreenHeight = dm.heightPixels;
+
+            int numberevenWidth= ((intScreenWidth)/3);
+            int numberevenHeight=(intScreenHeight/3);
+            myimageviewsize(BT_AnswerA,numberevenWidth,numberevenHeight);
+            myimageviewsize(BT_AnswerB,numberevenWidth,numberevenHeight);
+            myimageviewsize(BT_AnswerC,numberevenWidth,numberevenHeight);
+            myimageviewsize(BT_AnswerD,numberevenWidth,numberevenHeight);
+            BT_AnswerA.setTextSize((intScreenHeight)/12);
+            BT_AnswerB.setTextSize((intScreenHeight)/12);
+            BT_AnswerC.setTextSize((intScreenHeight)/12);
+            BT_AnswerD.setTextSize((intScreenHeight)/12);
         }
     }
 

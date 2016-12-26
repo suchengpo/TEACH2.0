@@ -23,6 +23,14 @@ public class StudentMain extends AppCompatActivity {
 
         findViews();
 
+        Bundle bundle=getIntent().getExtras();
+        user=(User) bundle.getSerializable("user");
+        if (user !=null)
+        {
+            TV_Student.setText(getString(R.string.Welcome)+"  "+user.getUsername());
+            setListener();
+        }
+
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -40,13 +48,7 @@ public class StudentMain extends AppCompatActivity {
         myimageviewsize(IB_Analyze,numberevenWidth,numberevenHeight);
         myimageviewsize(IB_History,numberevenWidth,numberevenHeight);
 
-        Bundle bundle=getIntent().getExtras();
-        user=(User) bundle.getSerializable("user");
-        if (user !=null)
-        {
-            TV_Student.setText(getString(R.string.Welcome)+"  "+user.getUsername());
-            setListener();
-        }
+
     }
 
     private void myimageviewsize(ImageView loginimage, int numberevenWidth, int numberevenWidth1) {

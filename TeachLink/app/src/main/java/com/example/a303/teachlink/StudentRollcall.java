@@ -2,20 +2,16 @@ package com.example.a303.teachlink;
 
 import android.graphics.Bitmap;
 import android.graphics.Point;
-import android.icu.text.SimpleDateFormat;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Display;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.EditText;
 import android.widget.ImageView;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
-
-import java.util.Date;
 
 public class StudentRollcall extends AppCompatActivity {
     private final static String TAG = "MainActivity";
@@ -31,12 +27,12 @@ public class StudentRollcall extends AppCompatActivity {
     }
 
     public void onGenerateQrCodeClick(View view) {//課號+時間+USER
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日HH:mm:ss");
-        Date curDate = new Date(System.currentTimeMillis()) ; // 獲取當前時間
-        String nowtime = formatter.format(curDate);
+//        SimpleDateFormat formatter = new SimpleDateFormat("yyyy年MM月dd日HH:mm:ss");
+//        Date curDate = new Date(System.currentTimeMillis()) ; // 獲取當前時間
+//        String nowtime = formatter.format(curDate);
 
-        EditText etQRCodeText = (EditText) findViewById(R.id.ET_QRClass);
-        String qrCodeText = etQRCodeText.getText().toString()+nowtime+user.getUsername();
+//        EditText etQRCodeText = (EditText) findViewById(R.id.ET_QRClass);
+        String qrCodeText = user.getUsername();
         Log.d(TAG, qrCodeText);
 
         WindowManager windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);

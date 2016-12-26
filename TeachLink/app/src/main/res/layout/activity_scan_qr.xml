@@ -25,6 +25,15 @@
         android:layout_below="@+id/BT_Scan"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <Button
+        android:id="@+id/BT_Over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/TV_Message"
+        android:text="@string/Over">
+    </Button>
+
 
 
 
