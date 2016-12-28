@@ -28,18 +28,50 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         android:layout_below="@id/TV_ClassName"
+        android:layout_toRightOf="@+id/TV_Accuracy_label"
         android:textSize="18sp"
         tools:text="accuracy" />
+    <TextView
+        android:id="@+id/TV_Accuracy_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/TV_ClassName"
+        android:textColor="#0000FF"
+        android:textSize="18sp"
+        android:text="accuracy:" />
 
     <TextView
-        android:id="@+id/TV_A"
+        android:id="@+id/TV_A_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_below="@id/TV_Accuracy"
         android:layout_marginTop="6dp"
         android:textSize="22sp"
+        android:textColor="#0000FF"
+        android:text="OptionA:  " />
+    <TextView
+        android:id="@+id/TV_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/TV_Accuracy"
+        android:layout_toRightOf="@id/TV_A_label"
+        android:layout_marginTop="6dp"
+        android:textSize="22sp"
         tools:text="A" />
+
+    <TextView
+        android:id="@+id/TV_Accuracy_Blabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@id/TV_A"
+        android:textSize="22sp"
+        android:textColor="#0000FF"
+        android:text="OptionB:  " />
+
 
     <TextView
         android:id="@+id/TV_B"
@@ -48,26 +80,50 @@
         android:layout_gravity="center"
         android:layout_marginTop="6dp"
         android:layout_below="@id/TV_A"
+        android:layout_toRightOf="@+id/TV_Accuracy_Blabel"
         android:textSize="22sp"
         tools:text="B" />
-
+    <TextView
+        android:id="@+id/TV_C_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/TV_B"
+        android:layout_marginTop="6dp"
+        android:textSize="22sp"
+        android:textColor="#0000FF"
+        android:text="OptionC:  " />
     <TextView
         android:id="@+id/TV_C"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_toRightOf="@id/TV_C_label"
         android:layout_marginTop="6dp"
         android:layout_below="@id/TV_B"
         android:textSize="22sp"
         tools:text="C" />
 
     <TextView
+        android:id="@+id/TV_D_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/TV_C"
+        android:layout_marginTop="6dp"
+        android:textSize="22sp"
+        android:textColor="#0000FF"
+        android:text="OptionD:  " />
+    <TextView
         android:id="@+id/TV_D"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/TV_D_label"
         android:layout_below="@id/TV_C"
         android:textSize="22sp"
         tools:text="D" />
+
+
 </RelativeLayout>
