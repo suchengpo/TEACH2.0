@@ -9,25 +9,25 @@ import java.util.ArrayList;
 
 public class Question implements Serializable {
     private String classname,title,std_ans;
-    private ArrayList<String> quesAns=new ArrayList<String>();
+    private ArrayList<String> ans=new ArrayList<String>();
     private int rate;
 
     public Question(String classname, String title, String std_ans, ArrayList<String> quesAns) {
         this.classname = classname;
         this.title = title;
         this.std_ans = std_ans;
-        this.quesAns = quesAns;
+        this.ans = quesAns;
     }
 
-    public Question(String classname, String title, ArrayList<String> quesAns) {
+    public Question(String classname, String title, ArrayList<String> ans) {
         this.classname = classname;
         this.title = title;
-        this.quesAns = quesAns;
+        this.ans = ans;
     }
 
-    public Question(String title, ArrayList<String> quesAns, int rate) {
+    public Question(String title, ArrayList<String> ans, int rate) {
         this.title = title;
-        this.quesAns = quesAns;
+        this.ans = ans;
         this.rate = rate;
     }
 
@@ -40,7 +40,7 @@ public class Question implements Serializable {
     }
 
     public ArrayList<String> getQuesAns() {
-        return quesAns;
+        return ans;
     }
 
     public int getRate() {

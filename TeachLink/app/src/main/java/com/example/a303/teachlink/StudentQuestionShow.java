@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v4.util.ArrayMap;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -80,6 +81,7 @@ public class StudentQuestionShow extends AppCompatActivity {
     private void setQuestion() {
         Question askquestion=questionList.get(questionList.size()-1);
         TV_Question.setText(askquestion.getTitle());
+        Log.d("AA",askquestion.getQuesAns().get(0));
         TV_A.setText(askquestion.getQuesAns().get(0));
         TV_B.setText(askquestion.getQuesAns().get(1));
         TV_C.setText(askquestion.getQuesAns().get(2));

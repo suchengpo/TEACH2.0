@@ -20,7 +20,7 @@ public class StudentQuestion extends AppCompatActivity {
     private User user;
     private Button BT_AnswerA,BT_AnswerB,BT_AnswerC,BT_AnswerD;
     private String myanswer,correctanswer;
-    private boolean AnswerAlready=false;
+    static private boolean AnswerAlready;
     //*****juiz*******
     private static Handler mHandler;
     //***************
