@@ -65,6 +65,12 @@ public class TeacherQuestion extends AppCompatActivity {
                 /*num 1: login*/
                 String content = bundle.getString("content");//json
 
+                Intent intent=new Intent(TeacherQuestion.this,TeacherMain.class);
+                Bundle bundleT=new Bundle();
+                bundleT.putSerializable("user",user);
+                intent.putExtras(bundleT);
+                startActivity(intent);
+
             }
         };
         //*****juiz*******
@@ -132,11 +138,7 @@ public class TeacherQuestion extends AppCompatActivity {
                     }
                     //*****************
 
-                    Intent intent=new Intent(getActivity(),TeacherMain.class);
-                    Bundle bundle=new Bundle();
-                    bundle.putSerializable("user",user);
-                    intent.putExtras(bundle);
-                    startActivity(intent);
+
                     break;
                 case DialogInterface.BUTTON_NEGATIVE:
                     dialog.cancel();
