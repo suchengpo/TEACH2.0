@@ -23,6 +23,11 @@
     <string name="Over">Rollcall Over</string>
     <string name="Choose_Answer">Choose Your Answer</string>
     <string name="Answered">You Already Answer This Question</string>
+    <string name="MakeSureMessage">Do You Want To Send?</string>
+    <string name="MakeSure">Make Sure</string>
+    <string name="text_btYes">Yes</string>
+    <string name="text_btNo">No</string>
+    <string name="go_to_ans">Answer This Question</string>
 
     <string name="ErrorMessage1">Error Username or Error Password</string>
     <string name="ErrorMessage2">Error Class Name</string>

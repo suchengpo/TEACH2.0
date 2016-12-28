@@ -30,6 +30,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_5bad5df79f922fcba2d9ccb9bf57485717846e06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_4d8913a7efe92406efd5153042e28b971f5a0900\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\303\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -48,12 +66,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_e75478a509dad42967df2402508f3ff4e24f5d3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_5f5aebcf4ef35e2527b04dcacadd7e1679624f10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
         <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_ec59c7b5767ede9e1cf85078476d17b637165525\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="57cd827ba9c2d7ac9ea92b0a5ff29f405ffebeb8">
+        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4e6d279c3e7f19cbe1ac8f1a0e39246d9207217c\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,21 +111,30 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9e00775b2de62d4fa82842540c4abf90faf42c62">
-        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4e6d279c3e7f19cbe1ac8f1a0e39246d9207217c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
         <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_8eac71af3a2b59d58856c804bba389d4b617fd52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6cd9e569eb8e5c363ebfc2b3207faec3b2e94bbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_1d680df0e34de93474a484731e29314a91551c64\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -108,60 +162,6 @@
         revision="24.0.2"
         sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
         <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_2296b2c15798403eb062afe1c4f043ea011c0ef9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_5bad5df79f922fcba2d9ccb9bf57485717846e06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
-        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_4d8913a7efe92406efd5153042e28b971f5a0900\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
-        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_e75478a509dad42967df2402508f3ff4e24f5d3a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
-        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_5f5aebcf4ef35e2527b04dcacadd7e1679624f10\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
-        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_6cd9e569eb8e5c363ebfc2b3207faec3b2e94bbe\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
-        <dex dex="C:\Users\303\Documents\GitHub\TECH2.0\TeachLink\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_1d680df0e34de93474a484731e29314a91551c64\classes.dex" />
     </item>
     <item
         is-multidex="true"

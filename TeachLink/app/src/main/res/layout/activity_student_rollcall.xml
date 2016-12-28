@@ -10,18 +10,17 @@
     tools:context="com.example.a303.teachlink.StudentRollcall"
     android:background="@drawable/st_back">
 
-    <EditText
-        android:id="@+id/ET_QRClass"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/Which_Class" />
+    <!--<EditText-->
+        <!--android:id="@+id/ET_QRClass"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="@string/Which_Class" />-->
 
     <Button
         android:id="@+id/BT_GenerateQrCode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onGenerateQrCodeClick"
-        android:layout_below="@+id/ET_QRClass"
         android:text="@string/text_GenerateQrCode" />
 
     <ImageView

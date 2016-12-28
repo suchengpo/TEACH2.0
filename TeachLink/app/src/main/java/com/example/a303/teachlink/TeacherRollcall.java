@@ -31,7 +31,7 @@ public class TeacherRollcall extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 classes=ET_Class.getText().toString();
-                time=ET_Time.getText().toString();
+//                time=ET_Time.getText().toString();
                 user.setChooseclass(classes);
                 user.setChoosetime(time);
 
@@ -62,7 +62,7 @@ public class TeacherRollcall extends AppCompatActivity {
 
     private void findViews() {
         ET_Class=(EditText) findViewById(R.id.ET_Class);
-        ET_Time=(EditText) findViewById(R.id.ET_Time);
+//        ET_Time=(EditText) findViewById(R.id.ET_Time);
         BT_send=(Button) findViewById(R.id.BT_send);
     }
 }

@@ -19,7 +19,7 @@
         android:layout_marginTop="6dp"
         android:textColor="#0000FF"
         android:textSize="22sp"
-        tools:text="Class Name" />
+        tools:text="Question" />
 
     <TextView
         android:id="@+id/TV_Accuracy"

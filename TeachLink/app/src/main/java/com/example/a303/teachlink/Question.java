@@ -19,6 +19,12 @@ public class Question implements Serializable {
         this.quesAns = quesAns;
     }
 
+    public Question(String classname, String title, ArrayList<String> quesAns) {
+        this.classname = classname;
+        this.title = title;
+        this.quesAns = quesAns;
+    }
+
     public Question(String title, ArrayList<String> quesAns, int rate) {
         this.title = title;
         this.quesAns = quesAns;

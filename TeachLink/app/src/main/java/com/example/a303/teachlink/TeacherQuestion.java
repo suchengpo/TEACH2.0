@@ -1,8 +1,14 @@
 package com.example.a303.teachlink;
 
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.util.ArrayMap;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -17,13 +23,13 @@ import java.net.URL;
 import java.util.ArrayList;
 
 public class TeacherQuestion extends AppCompatActivity {
-    private User user;
-    private EditText ET_Class,ET_Question,ET_A,ET_B,ET_C,ET_D,ET_Correct;
+    static private User user;
+    static private EditText ET_Class,ET_Question,ET_A,ET_B,ET_C,ET_D,ET_Correct;
     private Button BT_send;
-    private String jsonStr;
-    private Question question;
-    private String classname,title,std_ans,A,B,C,D;
-    private ArrayList<String> ans=new ArrayList<String>();
+    static private String jsonStr;
+    static private Question question;
+    static private String classname,title,std_ans,A,B,C,D;
+    static private ArrayList<String> ans=new ArrayList<String>();
     //*****juiz*******
     private static Handler mHandler;
     //***************
@@ -42,28 +48,9 @@ public class TeacherQuestion extends AppCompatActivity {
             BT_send.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    generateQuestion();
-                    Gson gson = new Gson();
-                    jsonStr = gson.toJson(question);
-                    Log.d("JsonTry",jsonStr);
-                    //********juiz*********send
-                    try {
-                        URL url = new URL("http://192.168.1.170");
-                        ArrayMap<String , String> reqData = new ArrayMap();
-                        reqData.put("select","c_ques");
-                        reqData.put("quesData",jsonStr);
-                        WebData webData = new WebData(url,mHandler);
-                        webData.setReqData(reqData);
-                        webData.getData();
-                    } catch (MalformedURLException e) {
-                        e.printStackTrace();
-                    }
-                    //*****************
-//                    Intent intent=new Intent(TeacherQuestion.this,Detail.class);
-//                    Bundle bundle =new Bundle();
-//                    bundle.putSerializable("Question",question);
-//                    intent.putExtras(bundle);
-//                    startActivity(intent);
+                    TeacherQuestion.AlertDialogFragmentQ alertFragment = new TeacherQuestion.AlertDialogFragmentQ();
+                    FragmentManager fragmentManager = getSupportFragmentManager();
+                    alertFragment.show(fragmentManager, "alert");
                 }
             });
         }
@@ -83,7 +70,7 @@ public class TeacherQuestion extends AppCompatActivity {
         //*****juiz*******
     }
 
-    private void generateQuestion() {
+    static private void generateQuestion() {
         classname=ET_Class.getText().toString();
         title=ET_Question.getText().toString();
         std_ans=ET_Correct.getText().toString();
@@ -108,5 +95,55 @@ public class TeacherQuestion extends AppCompatActivity {
         ET_D=(EditText)findViewById(R.id.ET_D);
         ET_Correct=(EditText)findViewById(R.id.ET_Correct);
         BT_send=(Button) findViewById(R.id.BT_send);
+    }
+
+    public static class AlertDialogFragmentQ
+            extends DialogFragment implements DialogInterface.OnClickListener {
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            return new AlertDialog.Builder(getActivity())
+                    .setTitle(R.string.MakeSure)
+                    .setIcon(R.drawable.alert)
+                    .setMessage(R.string.MakeSureMessage)
+                    .setPositiveButton(R.string.text_btYes, this)
+                    .setNegativeButton(R.string.text_btNo, this)
+                    .create();
+        }
+
+        @Override
+        public void onClick(DialogInterface dialog, int which) {
+            switch (which) {
+                case DialogInterface.BUTTON_POSITIVE:
+                    generateQuestion();
+                    Gson gson = new Gson();
+                    jsonStr = gson.toJson(question);
+                    Log.d("JsonTry",jsonStr);
+                    //********juiz*********send
+                    try {
+                        URL url = new URL("http://192.168.1.170");
+                        ArrayMap<String , String> reqData = new ArrayMap();
+                        reqData.put("select","c_ques");
+                        reqData.put("quesData",jsonStr);
+                        WebData webData = new WebData(url,mHandler);
+                        webData.setReqData(reqData);
+                        webData.getData();
+                    } catch (MalformedURLException e) {
+                        e.printStackTrace();
+                    }
+                    //*****************
+
+                    Intent intent=new Intent(getActivity(),TeacherMain.class);
+                    Bundle bundle=new Bundle();
+                    bundle.putSerializable("user",user);
+                    intent.putExtras(bundle);
+                    startActivity(intent);
+                    break;
+                case DialogInterface.BUTTON_NEGATIVE:
+                    dialog.cancel();
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }

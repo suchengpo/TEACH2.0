@@ -27,25 +27,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/TV_Class"/>
-    <TextView
-        android:id="@+id/TV_Time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Time"
-        android:layout_below="@+id/ET_Class"/>
+    <!--<TextView-->
+        <!--android:id="@+id/TV_Time"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/Time"-->
+        <!--android:layout_below="@+id/ET_Class"/>-->
 
-    <EditText
-        android:id="@+id/ET_Time"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/TV_Time"
-        android:hint="ex:01/01"/>
+    <!--<EditText-->
+        <!--android:id="@+id/ET_Time"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/TV_Time"-->
+        <!--android:hint="ex:01/01"/>-->
 
     <Button
         android:id="@+id/BT_send"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Send"
-        android:layout_below="@+id/ET_Time"
+        android:layout_below="@+id/ET_Class"
         android:layout_centerHorizontal="true"/>
 </RelativeLayout>

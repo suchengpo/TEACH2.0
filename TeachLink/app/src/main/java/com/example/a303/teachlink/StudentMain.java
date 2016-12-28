@@ -82,7 +82,7 @@ public class StudentMain extends AppCompatActivity {
             }
             if (v.getId()==R.id.IB_S_Question)
             {
-                Intent intent=new Intent(context,StudentQuestion.class);
+                Intent intent=new Intent(context,StudentQuestionShow.class);
                 Bundle bundle=new Bundle();
                 bundle.putSerializable("user",user);
                 intent.putExtras(bundle);

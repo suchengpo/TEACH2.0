@@ -1,6 +1,7 @@
 package com.example.a303.teachlink;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -138,6 +139,12 @@ public class StudentQuestion extends AppCompatActivity {
             else {
                 Toast.makeText(StudentQuestion.this,R.string.Answered,Toast.LENGTH_SHORT).show();
             }
+
+            Intent intent=new Intent(context,StudentMain.class);
+            Bundle bundle=new Bundle();
+            bundle.putSerializable("user",user);
+            intent.putExtras(bundle);
+            startActivity(intent);
 
 
 

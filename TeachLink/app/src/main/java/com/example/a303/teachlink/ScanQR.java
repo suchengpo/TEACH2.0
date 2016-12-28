@@ -1,6 +1,7 @@
 package com.example.a303.teachlink;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -8,6 +9,8 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.util.ArrayMap;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -27,9 +30,9 @@ public class ScanQR extends AppCompatActivity {
     private Button BT_Scan,BT_Over;
     private static final String PACKAGE = "com.google.zxing.client.android";
     private static final int REQUEST_BARCODE_SCAN = 0;
-    private RollcallData rollcallData;
-    private User user;
-    private String jsonStr;
+    static private RollcallData rollcallData;
+    static private User user;
+    static private String jsonStr;
     //*****juiz*******
     private static Handler mHandler;
     //***************
@@ -82,23 +85,11 @@ public class ScanQR extends AppCompatActivity {
         BT_Over.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                rollcallData=new RollcallData(rocalllist,user.getChooseclass());
-                Gson gson = new Gson();
-                jsonStr = gson.toJson(rollcallData);
-                Log.d("JsonTryR",jsonStr);
-                //********juiz*********send
-                try {
-                    URL url = new URL("http://192.168.1.170");
-                    ArrayMap<String , String> reqData = new ArrayMap();
-                    reqData.put("select","roll_call");
-                    reqData.put("classStu",jsonStr);
-                    WebData webData = new WebData(url,mHandler);
-                    webData.setReqData(reqData);
-                    webData.getData();
-                } catch (MalformedURLException e) {
-                    e.printStackTrace();
-                }
-                //*****************
+                AlertDialogFragment alertFragment = new AlertDialogFragment();
+                FragmentManager fragmentManager = getSupportFragmentManager();
+                alertFragment.show(fragmentManager, "alert");
+
+
 
             }
         });
@@ -145,6 +136,56 @@ public class ScanQR extends AppCompatActivity {
 
             TV_Message.setText(message);
             rocalllist.add(message);
+        }
+    }
+
+    public static class AlertDialogFragment
+            extends DialogFragment implements DialogInterface.OnClickListener {
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            return new AlertDialog.Builder(getActivity())
+                    .setTitle(R.string.MakeSure)
+                    .setIcon(R.drawable.alert)
+                    .setMessage(R.string.MakeSureMessage)
+                    .setPositiveButton(R.string.text_btYes, this)
+                    .setNegativeButton(R.string.text_btNo, this)
+                    .create();
+        }
+
+        @Override
+        public void onClick(DialogInterface dialog, int which) {
+            switch (which) {
+                case DialogInterface.BUTTON_POSITIVE:
+                    rollcallData=new RollcallData(rocalllist,user.getChooseclass());
+                    Gson gson = new Gson();
+                    jsonStr = gson.toJson(rollcallData);
+                    Log.d("JsonTryR",jsonStr);
+                    //********juiz*********send
+                    try {
+                        URL url = new URL("http://192.168.1.170");
+                        ArrayMap<String , String> reqData = new ArrayMap();
+                        reqData.put("select","roll_call");
+                        reqData.put("classStu",jsonStr);
+                        WebData webData = new WebData(url,mHandler);
+                        webData.setReqData(reqData);
+                        webData.getData();
+                    } catch (MalformedURLException e) {
+                        e.printStackTrace();
+                    }
+                    //*****************
+
+                    Intent intent=new Intent(getActivity(),TeacherMain.class);
+                    Bundle bundle=new Bundle();
+                    bundle.putSerializable("user",user);
+                    intent.putExtras(bundle);
+                    startActivity(intent);
+                    break;
+                case DialogInterface.BUTTON_NEGATIVE:
+                    dialog.cancel();
+                    break;
+                default:
+                    break;
+            }
         }
     }
 
